@@ -469,7 +469,7 @@ while ($row = $subDepts->fetch_assoc()) $existingSubDepts[] = $row['sub_departme
                                         </option>
                                         <?php endforeach; ?>
 
-                                    <option value="__new__"> <?= t('Create New', 'Crear Nuevo') ?></option>
+                                    <option value="__new__">  <input type="text" placeholder="create tree"/> </option>
                                 </select>
                             </div>
                             <!-- NEW SUB-DEPT INPUT --->
